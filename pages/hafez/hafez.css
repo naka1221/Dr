@@ -1,0 +1,187 @@
+
+body{
+    font-feature-settings: "SS01" !important;
+}
+.mosahebe-title{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.span-title{
+    color: #999;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.date-title{
+    color: #4e66ad;
+    font-size: 13px;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+
+
+
+
+
+
+/* * ////////////  Right  */ 
+.main-container_hafez{
+    width: 100%;
+    height: max-content !important;
+    min-height: 160vh;
+}
+.main-wrapper_hafez{
+    width: 70%;
+    min-height: max-content;
+    margin: 1rem auto;
+    direction: rtl;
+}
+.wrapper-box_hafez{
+    width: 100%;
+    /* height: 80vh; */
+}
+
+.box-classes_title{
+    margin-bottom: 2rem;
+}
+.main-box_class{
+    /* padding: 1rem; */
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: 1px dotted #777;
+}
+.class-audio_download{
+    text-decoration: none;
+    color: #222;
+}
+.main-box_hafez-title{
+    width: 40%;
+    background-color: #f8f8f8;
+
+}
+.main-box_hafez-audio{
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+.class-audio_download{
+    color: red;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px;
+   
+}
+audio{
+  width:100%; 
+  height: 60px;
+  padding: 15px;
+  padding-top: 1rem;
+}
+.main-box_class-number{
+width: 1% !important;
+margin: 0 auto;
+/* margin-left: 10px; */
+background-color: #f8f8f8;
+
+}
+.class-box_title-text{
+    direction: rtl;
+    padding: 0 5px;
+    /* padding:0.4rem; */
+    width: 30%;
+
+}
+.class-box_number-text{
+    text-align: center;
+    width: 35px !important;
+}
+.box-class_audio{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.box-hafez_title{
+    margin-bottom: 2rem;
+}
+
+table {
+    direction: ltr;
+    width: 80%;
+    margin: 0 auto;
+    height: max-content;
+    border: 2px solid #8c8c8c;
+  }
+  
+  th,
+  td {
+    border: 0.5px solid #a0a0a0;
+  }
+
+
+  
+main .list {
+	width: 100%;
+	max-width: 768px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-top:15px;
+}
+
+main .list .item {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+}
+main .list .item:last-of-type {
+	border-bottom: none;
+}
+main .list .item:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.pagenumbers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagenumbers button {
+	width: 50px;
+	height: 50px;
+    border-radius: 15px;
+	appearance: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	background-color: var(--primary-color);
+
+	margin: 5px;
+	transition: 0.4s;
+
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+	background-color: #44EEAA;
+}
+
+.pagenumbers button.active {
+	background-color: #44EEAA;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}

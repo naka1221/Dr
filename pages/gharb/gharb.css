@@ -1,0 +1,336 @@
+
+@import "../fonts.css";
+:root {
+    --primary-font: "IRANSans";
+    /* --primary-color: hsl(174, 60%, 37%);  */
+    /* --primary-color:#43A89A;
+    --secondary-color:#05285b; */
+
+    --active-color:hsl(174, 60%, 37%);
+    --second-color:#fff701;
+    --bg-color:#f8f9fa;
+
+    --login-color: #10738b;
+
+    --white-color: #fff;
+    --dark-color: #464749;
+    --bs-gray-dark:#333;
+    --bs-light:#fff;
+    --swiper-navigation-size: 50px;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+.main-mosahebe_container{
+width: 100%;
+height: max-content;
+/* height: 350vh; */
+/* height: 80vh; */
+}
+
+
+.mosahebe-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-top: 1rem;  
+}
+.mosahebe-title{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span-title{
+    color: #999;
+}
+.date-title{
+    color: #4e66ad;
+    font-size: 13px;
+}
+.end-content{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #4e66ad;
+
+}
+
+.main-mosahebe_left{
+    width: 30%;
+    height: max-content;
+    direction: rtl;
+
+}
+.wrapper-mosahebe_left{
+    width: 100%;
+    height: max-content;
+    overflow: scroll;
+    margin-bottom: 5rem;
+    background-color: #f8f8f8;
+    overflow-x: hidden;
+}
+.main-classes_right{
+    width: 65%;
+    height: 80%;
+    /* background-color: blue; */
+    margin-bottom: 3rem;
+ direction: rtl;
+  
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 14px;
+    cursor: pointer;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #337c73; 
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #298679; 
+  }
+
+.title{
+    font: 16px nassim-bold;
+    color: #000 !important;
+    text-align: center;
+}
+.subtitle{
+    background-color: #f8f8f8;
+    color: #000;
+    font: 11px / 21px iransans;
+    margin-top: 10px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+}
+
+.subtitle span {
+    padding: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+.lead_image {
+    display: block;
+    border: 0;
+    float: right;
+    height: 150px;
+}
+
+.main-content {
+    font: 14px / 24px iransans;
+    font-weight: 400;
+    color: #292929;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.header-mosahebe_left{
+    width: 100%;
+    background-color: #9f9f9f51;
+    padding: 15px;
+    font-weight: 700;
+    /* margin-bottom: 20px; */
+}
+
+.mosahebe-left_item{
+    margin-bottom: 1rem;
+    border-bottom: 1px dotted #999;
+    padding: 0.7rem;
+    padding-bottom: 1rem;
+    font-size: 9px;
+    line-height: 12px;
+    cursor: pointer;
+}
+.mosahebe-left_item:last-child{
+    border-bottom: none;
+}
+.header-mosahebe_left{
+    /* color: var(--primary-color); */
+    background-color: var(--secondary-color);
+
+}
+/* .mosahebe-left_list{
+    list-style: none;
+} */
+.mosahebe-left_item a{
+    color: #333;
+    text-decoration: none;
+}
+.date-mosahebe_left-list{
+    color: #c54f4f;
+    font-size: 12px;
+    width: 100%;
+    text-align: end;
+}
+
+/* ////////////  Right  */
+.wrapper-box_classes{
+    width: 100%;
+    height: 80vh;
+    
+}
+.box-classes_title{
+    margin-bottom: 2rem;
+}
+.main-box_class{
+    padding: 1rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: 1px dotted #777;
+}
+.class-audio_download{
+    text-decoration: none;
+    color: #222;
+}
+.main-box_classes-title{
+    width: 40%;
+    background-color: #f8f8f8;
+
+}
+.main-box_class-audio{
+  padding: 1rem;
+  background-color: #f8f8f8;
+}
+.class-audio_download{
+    color: red;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 25px;
+   
+}
+audio{
+  width: 100%; 
+  height: 40px;
+  padding-top: 1rem;
+}
+.main-box_class-number{
+width: 5%;
+margin: 0 auto;
+margin-left: 10px;
+background-color: #f8f8f8;
+
+}
+.class-box_title-text{
+    direction: rtl;
+    padding:0.4rem;
+
+}
+.class-box_number-text{
+    text-align: center;
+}
+
+table {
+    direction: ltr;
+    width: 90%;
+    height: max-content;
+    border: 2px solid #8c8c8c;
+  }
+  
+  th,
+  td {
+    border: 0.5px solid #a0a0a0;
+  }
+
+
+  
+main .list {
+	width: 100%;
+	max-width: 768px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-top: 25px;
+}
+
+main .list .item {
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+}
+main .list .item:last-of-type {
+	border-bottom: none;
+}
+main .list .item:hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.pagenumbers {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.pagenumbers button {
+	width: 50px;
+	height: 50px;
+
+	appearance: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	background-color: #44AAEE;
+
+	margin: 5px;
+	transition: 0.4s;
+
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+	background-color: #44EEAA;
+}
+
+.pagenumbers button.active {
+	background-color: #44EEAA;
+	box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+

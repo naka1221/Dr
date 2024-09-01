@@ -1,0 +1,223 @@
+
+@import "../../css/fonts.css";
+
+html{
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;}
+
+.main-mosahebe_container{
+width: 100%;
+height: max-content;
+/* height: 350vh; */
+/* height: 80vh; */
+}
+
+
+.mosahebe-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    height: max-content;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-top: 1rem;  
+}
+.mosahebe-title{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.span-title{
+    color: #999;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.date-title{
+    color: #4e66ad;
+    font-size: 13px;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.end-content{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #4e66ad;
+
+}
+
+.main-mosahebe_left{
+    width: 30%;
+    height: max-content;
+    background-color: #f8f8f8;
+    direction: rtl;
+    height: 100%;
+    /* height: 600px; */
+    /* overflow: scroll; */
+    /* margin-bottom: 5rem; */
+    /* overflow-x: hidden; */
+
+}
+
+
+.main-mosahebe_right{
+    width: 65%;
+    height: max-content;
+    /* background-color: blue; */
+    margin-bottom: 3rem;
+ direction: rtl;
+  
+}
+
+.title{
+    font: 25px nassim-bold;
+    color: #000 !important;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.subtitle{
+    background-color: #f8f8f8;
+    color: #000;
+    font: 10px / 21px iransans;
+    margin-top: 10px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+
+.subtitle span {
+    padding: 15px;
+    font-size: 14px;
+    overflow: hidden;
+    line-height: 25px;
+    display: block;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+
+.lead_image {
+    display: block;
+    border: 0;
+    float: right;
+    height: 150px;
+}
+
+.main-content {
+    font: 11px ;
+    font-weight: 400;
+    color: #292929;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.main-content p{
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.header-mosahebe_left{
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mosahebe-left_item{
+    margin-bottom: 1rem;
+    border-bottom: 2px double #999;
+    padding: 0.7rem;
+    padding-bottom: 1rem;
+    font-size: 9px;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+.mosahebe-left_item:last-child{
+  border: none;
+}
+
+.mosahebe-left_wrapper-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.mosahebe-left_img{
+    width: 35%;
+    height: 70%;
+
+}
+.mosahebe-left_img img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.mosahebe-left_content{
+    width: 100%;
+    height: 100%;
+
+}
+.mosahebe-left_item:nth-child(7){
+    border-bottom: none;
+}
+.mosahebe-left_item-text{
+width: 100%;
+font-size: 15px;
+line-height: 25px;
+margin-bottom: 15px;
+font-weight: 500;
+color: #444;
+/* font-family: iransans; */
+font-family: 'IRANSans', Tahoma, Arial, sans-serif;
+}
+.mosahebe-left_item-text:hover{
+    color: #000;
+}
+/* .mosahebe-left_list{
+    list-style: none;
+} */
+.mosahebe-left_item a{
+    color: #333;
+    text-decoration: none;
+}
+.date-mosahebe_left-list{
+    color: #c54f4f;
+    font-weight: 500;
+    font-size: 11px !important;
+    width: 100%;
+    text-align: end;
+}

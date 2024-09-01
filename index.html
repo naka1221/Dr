@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./vendor/fontawsom5/all.min.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- TOP-NAV -->
+        
+  <div class="overlay"></div>
+  <div class="min-nav">
+    <div class="container-min-nav">
+      <div class="mobile-main-navbar">
+           <div class="line-nav">
+            <span class="line-min_nav "></span>
+        </div>
+        
+        
+        <div class=" hidden">
+          <h2  class="mobile-nav">
+             صفحه اصلی
+          </h2>
+      </div>
+      </div>
+     
+        <!-- <div class="top-nav_right-titlee"> <a href="index.html">مهر معرفت</a> </div> -->
+        <!-- <div class="min-search"> 
+            <i class="fa fa-search "></i>
+    </div> -->
+
+    </div>
+</div>
+<!-- <div class="min-nav_input">
+    <input type="search"  placeholder="جستجو ...">
+</div> -->
+  <div class="nav-side hide">
+    <div class="">
+        <ul class="nav-side_main">
+            <li class="min-nav_listItem" id="introduce"> <a href="index.html" class="min-header__link">صفحه اصلی</a></li>
+
+            <!-- <li class="min-nav_listItem" id="introduce"> <a href="pages/introduce/معرفی.html" class="min-header__link"> معرفی</a></li> -->
+            <li class="min-header__item min-nav_listItem" id="taf">
+                <a href="pages/tafsir/تفسیر.html" class="min-header__link">تفسیر
+                  <i class="fas fa-angle-down min-header__link-icon"></i> </a>
+                  <ul class="min-header__dropdown">
+                    <li class="min-header__dropdown-item">
+                      <a href="pages/ghoran/قرآن.html" class="min-header__dropdown-link">قرآن</a>
+                    </li>
+                    <li class="min-header__dropdown-item">
+                      <a href="pages/nahjolbalaghe/تفسیر-نهج‌البلاغه.html" class="min-header__dropdown-link">نهج البلاغه</a>
+                    </li>
+                    <li class="min-header__dropdown-item">
+                        <a href="pages/zeyarat/زیارت-عاشورا.html" class="min-header__dropdown-link">زیارت عاشورا</a>
+                      </li>
+                      <!-- <li class="min-header__dropdown-item">
+                        <a href="#" class="min-header__dropdown-link">سوره حمد</a>
+                      </li> -->
+                  </ul>
+               
+            </li>              
+            <!-- <li class="min-nav_listItem" id="kar"> <a href="pages/workshop/کارگاه.html" class="min-header__link"> کارگاه</a></li> -->
+            <li class="min-header__item min-nav_listItem" id="classes">
+                <a href="pages/classes/کلاسها.html" class="min-header__link">کلاسها
+                  <i class="fas fa-angle-down min-header__link-icon"></i></a>
+                  <ul class="min-header__dropdown">
+                    <li class="min-header__dropdown-item">
+                      <a href="pages/gharb/فلسفه-غرب.html" class="min-header__dropdown-link">فلسفه غرب</a>
+                    </li>
+                    <li class="min-header__dropdown-item">
+                      <a href="pages/tahlili/فلسفه-تحلیلی.html" class="min-header__dropdown-link">فلسفه تحلیلی</a>
+                    </li>
+                  </ul>
+                
+            </li>
+            <li class="min-nav_listItem" id="report"> <a href="pages/speech/سخنرانیها.html"  class="min-header__link"> سخنرانی ها</a></li>
+            <li class="min-nav_listItem six" id="poem"> <a href="pages/hafez/حافظ-شناسی.html"  class="min-header__link">  حافظ شناسی</a></li>
+
+            <li class="min-nav_listItem six" id="poem"> <a href="pages/yaddasht/دلنوشته.html"  class="min-header__link"> دلنوشته‌ها</a></li>
+            <!-- <li class="min-nav_listItem" id="mo"> <a href="pages/interview.html">  مصاحبه ها</a></li> -->
+            <!-- <li class="min-nav_listItem six" id="days"> <a href="pages/notes.html">  یادداشت های روزانه</a></li> -->
+            <!-- <li class="min-nav_listItem" id="gallery"> <a href="pages/gallery/آلبوم.html"  class="min-header__link">  گالری</a></li> -->
+            <li class="min-nav_listItem" id="gallery"> <a href="pages/mosahebe/مصاحبه.html"  class="min-header__link link-active"> مصاحبه‌ها</a></li>
+
+        </ul>
+    </div>
+
+</div>
+
+
+    <div class="container">
+        <div class="top-nav">
+            <div class="top-nav_left">
+            </div>
+            <div class="top-nav_right">
+                <!-- <img class="top-nav-img" src="../images/عکس دکتر فلاح رفیع.jfif" alt=""> -->
+               <h1div class="top-nav_right-title">
+                    سایت دکتر فلاح رفیع 
+               </h1>
+           </div>
+        </div>
+
+        <div class="down-nav">
+                <ul class="navbar-left-list">
+                    <li  class="min-header__item">  <a href="index.html" class="min-header__link link-active">صفحه اصلی</a>
+
+                    <!-- <li  class="min-header__item">  <a href="pages/introduce/معرفی.html" class="min-header__link ">معرفی</a> -->
+                    </li>
+                    <li class="min-header__item">  <a href="pages/tafsir/تفسیر.html" class="min-header__link">تفسیر
+                        <i class="fas fa-angle-down min-header__link-icon"></i> </a>
+                        <ul class="min-header__dropdown">
+                          <li class="min-header__dropdown-item">
+                            <a href="pages/ghoran/قرآن.html" class="min-header__dropdown-link">قرآن</a>
+                          </li>
+                          <li class="min-header__dropdown-item">
+                            <a href="pages/nahjolbalaghe/تفسیر-نهج‌البلاغه.html" class="min-header__dropdown-link">نهج البلاغه</a>
+                          </li>
+                          <li class="min-header__dropdown-item">
+                              <a href="pages/zeyarat/زیارت-عاشورا.html" class="min-header__dropdown-link">زیارت عاشورا</a>
+                            </li>
+                            <!-- <li class="min-header__dropdown-item">
+                              <a href="#" class="min-header__dropdown-link">سوره حمد</a>
+                            </li> -->
+                        </ul>
+                     
+                    </li>
+                    <!-- <li class="min-header__item">  <a href="pages/workshop/کارگاه.html" class="min-header__link">کارگاه‌ها</a></li> -->
+                    <li class="min-header__item">
+                      <a href="" class="min-header__link">کلاس‌
+                      <i class="fas fa-angle-down min-header__link-icon"></i>  </a>
+                      <ul class="min-header__dropdown">
+                        <li class="min-header__dropdown-item">
+                          <a href="pages/classes/کلاسها.html" class="min-header__dropdown-link">فلسفه غرب</a>
+                        </li>
+                        <li class="min-header__dropdown-item">
+                          <a href="pages/tahlili/فلسفه-تحلیلی.html" class="min-header__dropdown-link">فلسفه تحلیلی</a>
+                        </li>
+                      </ul>
+                  
+                     </li>
+                    <li class="min-header__item">  <a href="pages/speech/سخنرانیها.html" class="min-header__link">سخنرانی‌</a></li>
+                    <li class="min-header__item">  <a href="pages/hafez/حافظ-شناسی.html" class="min-header__link">حافظ شناسی</a></li>
+                    <li class="min-header__item">  <a href="pages/yaddasht/دلنوشته.html" class="min-header__link">نوشته‌ها</a></li>
+                    <!-- <li class="min-header__item">  <a href="pages/gallery/آلبوم.html" class="min-header__link">گالری</a></li> -->
+                    <li class="min-header__item">  <a href="pages/mosahebe/مصاحبه.html" class="min-header__link">مصاحبه‌ها</a></li>
+
+
+                </ul>
+                
+          
+             <!-- <div class="navbar-right">
+          </div> -->
+        </div>
+    </div>
+
+
+    <!-- NAV -->
+
+
+    <!-- HEADER -->
+      <div class="main-header_container">
+        <div class="palet">
+          <div class="palet-icon"> <i class="iconPalet fas fa-cog"></i></div>
+            <div class="palet-box">
+      <div class="pallet-header">انتخاب رنگ</div>
+      <!-- <div class="palet-color__box red" data-id="#dc3545"></div>
+      <div class="palet-color__box pink"  data-id="#e83e8c"></div> -->
+      <!-- <div class="palet-color__box yellow" data="red" data-id="#28a745"></div>
+       <div class="palet-color__box orange"  data-id="#fd7e14"></div>
+       <div class="palet-color__box brown"  data-id="#795548"></div> 
+      <div class="palet-color__box blue"  data-id="#007bff"></div>
+      <div class="palet-color__box green"  data-id="#43A89A"></div>
+      <div class="palet-color__box indigo"  data-id="#6610f2"></div>          
+      <div class="palet-color__box cyan"  data-id="#17a2b8"></div>
+      <div class="palet-color__box purple"  data-id="#6f42c1"></div> -->
+
+
+      <div class="palet-color__box red" data="#CDC2A5" data-id="#295F98"></div>
+      <div class="palet-color__box pink" data="#41B3A2"  data-id="#0D7C66"></div> 
+       <div class="palet-color__box yellow" data="#A28B55" data-id="#86AB89"></div>
+       <div class="palet-color__box orange" data="#F5EEC8" data-id="#A7D397"></div>
+       <!-- <div class="palet-color__box brown" data="#088395"  data-id="#071952"></div>  -->
+      <div class="palet-color__box blue" data="#81A263" data-id="#365E32"></div>
+      <div class="palet-color__box green" data="#028391" data-id="#01204E"></div>
+      <div class="palet-color__box indigo" data="#40A578"  data-id="#006769"></div>          
+      <div class="palet-color__box cyan" data="#17a3b83d" data-id="#17a2b8"></div>
+      <!-- <div class="palet-color__box purple"  data-id="#6f42c1"></div> -->
+
+      <div class="pallet-default">رنگ اصلی</div>
+        </div>
+      </div>
+
+
+        <div class="main-header_wrapper">
+          <div class="main-header_left">
+            <img class="main-header_left-img" src="images/عکس/تفسیر قرآن.JPG" alt="">
+
+          </div>
+          <div class="main-header_right">
+            <h1 class="main-header_right-title">معرفی</h1>
+            <div class="main-header_right-text">
+              دکتر علی فلاح رفیع، دکترای فلسفه غرب، دانش آموخته حوزه علمیه قم (خارج فقه و اصول) و دانش آموخته موسسه امام خمینی (ره) می باشد. وی عضو هیئت علمی دانشگاه، مولف کتاب های متعدد در حوزه فلسفه غرب، فلسفه و کلام اسلامی، موضوعات سیاسی، اجتماعی، مقالات متعدد در حوزه های ذکر شده و... است.
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    <!-- CLASSES -->
+    <div class="index-classes_container">
+      <div class="main-title_classes">
+        دسترسی سریع
+      </div>
+
+        <!-- <div class="index-classes_title"> کلاسها</div> -->
+         <div class="wrapper-index_box-classes">
+
+      <div class="index-box_classes ">
+        <div class="card">
+          <a href="pages/classes/کلاسها.html">
+            <img src="./images/عکس/3.jpg" alt="Image" class="card-image">
+          <div class="overlay"><i class="fa-solid fa-volume-high icon"></i></div>
+          <div class="text">صوت کلاس غرب</div>
+          </a>
+      </div>
+        <!-- <div class="index-box_class-text">  صوتهای کلاس دکارت</div> -->
+      </div>
+
+
+      <div class="index-box_classes">
+        <a href="pages/nahjolbalaghe/تفسیر-نهج‌البلاغه.html">
+          <div class="card">
+          <img src="./images/دکتر فلاح رفیع.jfif" alt="Image" class="card-image">
+          <div class="overlay"><i class="fa-solid fa-volume-high icon"></i></div>
+          <div class="text">تفسیر نهج البلاغه</div>
+      </div>
+        </a>
+        
+      </div>
+
+      <div class="index-box_classes">
+        <a href="pages/hafez/حافظ-شناسی.html">
+   <div class="card">
+          <img src="./images/عکس/Hafez_Poetry_Image (3).jpg" alt="Image" class="card-image">
+          <div class="overlay"> <i class="fa-solid fa-volume-high icon"></i></div>
+          <div class="text">اشعار حافظ</div>
+      </div>
+
+        </a>
+     
+      </div>
+      <div class="index-box_classes">
+        <div class="card">
+          <img src="./images/عکس/6.jpg" alt="Image" class="card-image">
+          <div class="overlay"><i class="fa-solid fa-file-lines icon"></i></div>
+          <div class="text">نوشته ها</div>
+      </div>
+      </div>
+      <div class="index-box_classes">
+        <div class="card">
+          <img src="./images/عکس/1.JPG" alt="Image" class="card-image">
+          <div class="overlay"><i class="fa-solid fa-volume-high icon"></i></div>
+          <div class="text">تفسیر نهج البلاغه</div>
+      </div>
+      </div>
+      <div class="index-box_classes">
+        <a href="pages/nahjolbalaghe/تفسیر-نهج‌البلاغه.html">
+            <div class="card">
+          <img src="./images/عکس/Nahj_al-Balagha_Image.jpg" alt="Image" class="card-image">
+          <div class="overlay"><i class="fa-solid fa-volume-high icon"></i></div>
+          <div class="text">تفسیر نهج البلاغه</div>
+      </div>
+        </a>
+      
+      </div>
+     
+    </div>
+    </div>
+
+
+ <!-- Book -->
+
+ <div class="mainn-container">
+  <div class="mainn" >
+    <div class="mainn-title">
+      آثار و تألیفات
+    </div>
+    <div class="swiper mySwiperer" >
+   <div class="swiper-wrapper erer" >
+            <div class="swiper-slide">
+              <div class="main-boxx">
+                   <div class="main-boxx_img">
+                   <img src="bookimage/1.jpg" alt="">
+                 </div>
+                <div class="cover-main-box">
+                     <div class="main-boxx-cover_title"> از جنس دغدغه</div>
+                     <div class="main-boxx-cover_text"><a href="https://www.iranketab.ir/profile/15119-%D8%B9%D9%84%DB%8C-%D9%81%D9%84%D8%A7%D8%AD-%D8%B1%D9%81%DB%8C%D8%B9">
+مجموعه سخنرانی با موضوع تحول اندیشمندانه در دانشگاه‌ها                   </a> </div>
+                       
+                    </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+             <div class="main-boxx">
+                  <div class="main-boxx_img">
+                  <img src="bookimage/2.jpg" alt="">
+                </div>
+               <div class="cover-main-box">
+                    <div class="main-boxx-cover_title">تفرج فلسفی</div>
+                    <div class="main-boxx-cover_text">
+                      <a href="https://www.iranketab.ir/profile/15119-%D8%B9%D9%84%DB%8C-%D9%81%D9%84%D8%A7%D8%AD-%D8%B1%D9%81%DB%8C%D8%B9">
+                     در برخی مقولات فلسفه غرب
+                    </a> </div>
+                      
+                   </div>
+             </div>
+           
+             </div>
+            <div class="swiper-slide">
+              <div class="main-boxx">
+                <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+                <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+                 <div class="main-boxx_img">
+                   <img src="bookimage/هگل.jpg" alt="">
+                 </div>
+                <div class="cover-main-box">
+                     <div class="main-boxx-cover_title"> کتاب فلسفه هگل</div>
+                     <div class="main-boxx-cover_text"><a href="https://www.iranketab.ir/profile/15119-%D8%B9%D9%84%DB%8C-%D9%81%D9%84%D8%A7%D8%AD-%D8%B1%D9%81%DB%8C%D8%B9">
+                       خرید کتاب
+                     </a> </div>
+                       
+                    </div>
+              </div>
+               
+            </div>
+              <div class="swiper-slide">
+                <div class="main-boxx">
+                  <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+                  <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+                   <div class="main-boxx_img">
+                     <img src="bookimage/قامت زبان.jpg" alt="">
+                   </div>
+                  <div class="cover-main-box">
+                       <div class="main-boxx-cover_title"> قامت زبان در ساحت عرفان</div>
+                       <div class="main-boxx-cover_text"> <a href="https://www.iranketab.ir/profile/15119-%D8%B9%D9%84%DB%8C-%D9%81%D9%84%D8%A7%D8%AD-%D8%B1%D9%81%DB%8C%D8%B9">
+                        خرید کتاب
+                      </a> </div>
+                         
+                      </div>
+                </div>
+                   
+              </div>
+              <div class="swiper-slide">
+                <div class="main-boxx">
+                  <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+                  <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+                   <div class="main-boxx_img">
+                     <img src="bookimage/فلسفه.jpg" alt="">
+                   </div>
+                  <div class="cover-main-box">
+                       <div class="main-boxx-cover_title">بنیان‌های سبک زندگی در نهج‌البلاغه</div>
+                       <div class="main-boxx-cover_text"><a href="https://www.iranketab.ir/profile/15119-%D8%B9%D9%84%DB%8C-%D9%81%D9%84%D8%A7%D8%AD-%D8%B1%D9%81%DB%8C%D8%B9">
+                        خرید کتاب
+                      </a> </div>
+                         
+                      </div>
+                </div>
+              
+         </div>
+         
+         <div class="swiper-slide">
+          <div class="main-boxx">
+            <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+            <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+             <div class="main-boxx_img">
+               <img src="bookimage/فلسفه تاریخ.jfif" alt="">
+             </div>
+            <div class="cover-main-box">
+                 <div class="main-boxx-cover_title"> فلسفه تاریخ</div>
+                 <div class="main-boxx-cover_text"> دیدگاه شیعه با نگاه به مکاتب دیگر </div>
+                   
+                </div>
+          </div>
+        
+         </div>
+         <div class="swiper-slide">
+          <div class="main-boxx">
+            <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+            <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+             <div class="main-boxx_img">
+               <img src="bookimage/بوی بهشت.jfif" alt="">
+             </div>
+            <div class="cover-main-box">
+                 <div class="main-boxx-cover_title"> بوی بهشت</div>
+                 <div class="main-boxx-cover_text">نیم نگاهی به فضایل بانوی ملکوت </div>
+                   
+                </div>
+          </div>
+        
+         </div>
+         <div class="swiper-slide">
+          <div class="main-boxx">
+            <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+            <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+             <div class="main-boxx_img">
+               <img src="bookimage/کرانه های اختیار آدمی.jpg" alt="">
+             </div>
+            <div class="cover-main-box">
+                 <div class="main-boxx-cover_title"> کرانه‌های اختیار آدمی</div>
+                 <div class="main-boxx-cover_text"> کانون اندیشه جوان </div>
+                   
+                </div>
+          </div>
+        
+         </div>
+         <div class="swiper-slide">
+          <div class="main-boxx">
+            <!-- <div class="main-boxx_title"> کارگاههای شرح مثنوی</div> -->
+            <!-- <div class="main-boxx_text"> کارگاه های مربوطه در دانشگاه تربیت مدرس  و دردانشکده علوم انسانی تشکیل میشود </div> -->
+             <div class="main-boxx_img">
+               <img src="bookimage/از بایسته های پژوهش.jpg" alt="">
+             </div>
+            <div class="cover-main-box">
+                 <div class="main-boxx-cover_title"> از بایسته‌های پژوهش تا تولید دانش</div>
+                 <div class="main-boxx-cover_text">  </div>
+                   
+                </div>
+          </div>
+        
+         </div>
+   
+   </div>
+   
+       </div>
+       <div class="container-next">
+          <div class="swiper-button-next nextt"></div>
+       </div>
+ 
+       <div class="container-prev">
+        <div class="swiper-button-prev prevv "></div>  
+
+       </div>
+  
+   </div>
+</div>
+
+    
+
+
+
+    <!-- ARTICLES -->
+
+
+    <!-- SOUNDS -->
+
+
+    <!-- FOOTER -->
+    <footer >
+
+        <div class="footer-container">
+            <div class="footer-container_main">
+                <ul class="right-list">
+                <li class="right-list_item">وب سایت رسمی دکتر فلاح رفیع</li>
+                <li class="right-list_item">در این سایت تفسیر، کارگاه ها، کلاس ها، سخنرانی ها، مصاحبه ها، یادداشت های روزانه اشعار و دل نوشته های استاد به اشتراک گذاشته می شود.</li>
+            </ul>
+            <ul class="left-list">
+                <li class="right-list_item"><div class="right-list_title"> تماس با ما</div></li>
+                <li class="right-list_item">تلفن</li>
+                <li class="right-list_item">آدرس</li>
+            </ul>
+            </div> 
+        </div>
+       <div class="sub-footer">
+            <div class="sub-footer_icon">
+                    <ul class="sub-footer_list-social">
+                        <li class="sub-footer_item">
+                            <a href=""><i class="fab fa-facebook"></i></a></li>
+                        <li class="sub-footer_item">
+                           <a href=""><i class="fab fa-twitter"></i></a></li>
+                        <li class="sub-footer_item">
+                            <a href=""><i class="fab fa-dribbble"></i></a> 
+                        </li>
+                        <li class="sub-footer_item">
+                           <a href=""><i class="fab fa-github"></i></a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="sub-footer_text"> © تمامی حقوق برای وب سایت مهر معرفت محفوظ است. کپی با ذکر منبع بلا مانع است.</div>
+      </div>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/particles.js"></script>
+
+    <!-- <script src="js/app.js"></script> -->
+    <script src="js/main.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="./vendor/fontawsom5/all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script>
+      var swipertree = new Swiper(".mySwiperer", {
+        clickable: true,
+    
+          loop:true,
+        slidesPerView: 5,
+        spaceBetween: 20,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+        autoplay: {
+      delay: 6500,
+      disableOnInteraction: false,
+    },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
+    
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 20,
+          },
+       },
+      });
+    </script>
+</body>
+</html>

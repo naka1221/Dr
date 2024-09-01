@@ -1,0 +1,26 @@
+@media screen and (max-width:920px){
+    .main-wrapper_hafez{
+
+        width: 100%;
+    }
+
+    .wrapper-box_hafez{
+        width: 100%;
+
+    }
+
+    
+table {
+    direction: ltr;
+    width: 90%;
+
+}
+}
+
+@media screen and (max-width:768px){
+    table {
+        direction: ltr;
+        width: 97%;
+    
+    }
+}

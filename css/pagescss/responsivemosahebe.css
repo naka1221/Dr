@@ -1,0 +1,24 @@
+@media screen and (max-width:920px){
+    .main-mosahebe_right{
+        margin: 0 auto;
+        width: 70%;
+        height: 500px;
+  
+}
+.main-mosahebe_left{
+    width: 100%;
+    height: 80%;
+  
+}
+}
+
+@media screen and (max-width:768px){
+    .mosahebe-wrapper{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+
+
+ 
+}

@@ -1,0 +1,154 @@
+
+@import "../fonts.css";
+
+.main-mosahebe_container{
+width: 100%;
+height: max-content;
+/* height: 350vh; */
+/* height: 80vh; */
+}
+
+
+.mosahebe-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 3rem;
+    margin-top: 1rem;  
+}
+.mosahebe-title{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span-title{
+    color: #999;
+}
+.date-title{
+    color: #4e66ad;
+    font-size: 13px;
+}
+.end-content{
+    width: 90%;
+    align-items: flex-start;
+    direction: rtl;
+    margin: 2rem auto;  
+    /* margin-right: 6rem;   */
+    font-weight: 700;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #4e66ad;
+
+}
+
+.main-mosahebe_left{
+    width: 30%;
+    height: max-content;
+    background-color: #f8f8f8;
+    direction: rtl;
+
+}
+.main-mosahebe_right{
+    width: 65%;
+    height: 80%;
+    /* background-color: blue; */
+    margin-bottom: 3rem;
+ direction: rtl;
+  
+}
+
+.title{
+    font: 16px nassim-bold;
+    color: #000 !important;
+    text-align: center;
+}
+.subtitle{
+    background-color: #f8f8f8;
+    color: #000;
+    font: 11px / 21px iransans;
+    margin-top: 10px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+}
+
+.subtitle span {
+    padding: 15px;
+    overflow: hidden;
+    display: block;
+}
+
+.lead_image {
+    display: block;
+    border: 0;
+    float: right;
+    height: 150px;
+}
+
+.main-content {
+    font: 14px / 24px iransans;
+    font-weight: 400;
+    color: #292929;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+.header-mosahebe_left{
+    width: 100%;
+    background-color: #9f9f9f51;
+    padding: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.mosahebe-left_item{
+    margin-bottom: 1rem;
+    border-bottom: 1px dotted #999;
+    padding: 0.7rem;
+    padding-bottom: 1rem;
+    font-size: 9px;
+    line-height: 12px;
+    cursor: pointer;
+}
+.mosahebe-left_item:nth-child(6){
+    border-bottom: none;
+}
+
+/* .mosahebe-left_list{
+    list-style: none;
+} */
+.mosahebe-left_item a{
+    color: #333;
+    text-decoration: none;
+}
+.date-mosahebe_left-list{
+    color: #c54f4f;
+    font-size: 12px;
+    width: 100%;
+    text-align: end;
+}

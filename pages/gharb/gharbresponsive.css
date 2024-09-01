@@ -1,0 +1,13 @@
+@media screen and (max-width:920px){
+    .mosahebe-wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+    .main-mosahebe_left{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .main-classes_right{
+        width: 95%;
+    }
+}
